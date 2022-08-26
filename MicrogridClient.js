@@ -37,10 +37,8 @@ class ITSender{
         endAt: undefined
     }
 
-    // Santiago
-    // hosts = ['192.168.1.111','192.168.1.173','192.168.1.174','192.168.1.139'];
-    // Curico
-    hosts = ['192.168.0.14','192.168.0.15','192.168.0.16'];
+    // Establecer direcciones ip de servidores dentro de red wifi
+    hosts = ['192.168.0.x','192.168.0.x','192.168.0.x'];
 
     constructor(){
         this.transactionManager = new TransactionManager();
