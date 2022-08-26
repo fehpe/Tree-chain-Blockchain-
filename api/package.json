@@ -1,0 +1,21 @@
+{
+  "name": "blockchain_api",
+  "version": "1.0.0",
+  "description": "API receptora de data de nodos de la microrred.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "axios-interceptor-response-time": "^2.0.0",
+    "body-parser": "^1.20.0",
+    "crypto-js": "^4.1.1",
+    "express": "^4.18.1",
+    "merkletreejs": "^0.2.31",
+    "mongodb": "^4.5.0",
+    "response-time": "^2.3.2"
+  }
+}
